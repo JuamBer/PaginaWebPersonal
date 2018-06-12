@@ -1,6 +1,70 @@
 @media only screen and (max-width: 1100px) {
  body .Main .Proyectos ul li{
    width: 90%;
+   height: auto;
  }
+ .Proyectos ul li div.Botones  {
+   display: flex;
+   justify-content: space-around;
+ }
+ .Proyectos ul li.ProyectoGrande div.Botones  {
+   display: flex;
+   justify-content: space-around;
+  }
+  .Proyectos ul li.Primero:hover {
+    border-top: none;
+    animation : none;
+    border-top: 5px white solid;
+
+  }
+  .Proyectos ul li.Segundo:hover {
+    border-top: none;
+    animation : none;
+    border-top: 5px white solid;
+
+  }
+   .Proyectos ul li.ProyectoGrande:hover {
+     border-top: 5px white solid;
+     animation : none;
+   }
+
+
+   .Proyectos ul li.Primero:hover ~ .Segundo{
+     animation:none;
+   }
+   .Proyectos ul li.Segundo:hover ~ .Primero{
+     animation:none;
+   }
+}
+
+@media only screen and (max-width: 470px) {
+  .Proyectos ul li div.Botones {
+    display: inline;
+  }
+  .Proyectos ul li div.Botones a {
+    width: 90%;
+    display: block;
+  }
+  .Proyectos ul li.ProyectoGrande div.Botones {
+    display: inline;
+  }
+  .Proyectos ul li.ProyectoGrande div.Botones  a{
+    width: 90%;
+    display:block;
+
+   }
+   .Proyectos ul li.ProyectoGrande:hover > div.Botones{
+     display: inline;
+
+   }
+   .Proyectos ul li.Primero:hover > div.Botones {
+       display: inline;
+    }
+    .Proyectos ul li.Segundo:hover > div.Botones {
+       display: inline;
+    }
+    .Proyectos ul li.ProyectoGrande img {
+    width: 90%;
+  }
 
 }
