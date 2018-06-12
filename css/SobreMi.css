@@ -1,0 +1,28 @@
+/* COLORES: #128C4E  #8C261A #024027 #401309*/
+
+.SobreMi  {
+  margin-top: 25px;
+  color: white
+}
+.SobreMi div.Title {
+  background: #024027;
+  padding: 3%;
+  border-top-left-radius: 60px;
+  text-align: center;
+}
+.SobreMi div.Text {
+  background: #128C4E;
+  padding: 3%;
+  border-bottom-right-radius: 60px;
+
+}
+.SobreMi div.Text img{
+  width: 35%;
+  float: left;
+  padding-right: 2%;
+}
+.SobreMi div.Text p{
+  width: 89%;
+  font-size: 20px;
+  text-align: left;
+}

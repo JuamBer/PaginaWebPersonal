@@ -1,0 +1,21 @@
+/* COLORES: #128C4E  #8C261A #024027 #401309*/
+
+.Main {
+	background: white;
+	width: 65%;
+	float: left;
+	padding: 5%;
+  min-height: 100vh;
+}
+
+.Titulo {
+	color:white;
+  background: #024027;
+  padding: 2.5%;
+  border-radius: 25px;
+  text-align: center;
+	margin-bottom: 30px;
+}
+.Titulo h1 {
+  margin-bottom: 15px;
+}
