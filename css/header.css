@@ -23,7 +23,7 @@ header {
 	border: 10px #401309 solid;
 	margin-bottom: 5%;
 	width: 60%;
-	height: 200px;
+	height: auto;
 	border-radius: 50%;
 }
 .FotoPerfil h1,p {

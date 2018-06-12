@@ -24,6 +24,9 @@
 
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/Main.css">
+  <link rel="stylesheet" href="css/HeaderResponsive.css">
+
+
   <link rel="stylesheet" href="css/Contacto.css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <title>Juan Sáez | Contacto</title>
@@ -34,10 +37,12 @@
 			<a href="Home.html">
 				<img src="Imagenes/Juan.jpg"/>
 			</a>
-			<h1>Juan Sáez</h1>
-			<p>Programador apasionado, en especial por el Desarrollo Web.
-      Muy interesado por el mundo empresarial los animales y el Hardware.
-		 </p><br/>
+      <div>
+    			<h1>Juan Sáez</h1>
+    			<p>Programador apasionado, en especial por el Desarrollo Web.
+          Muy interesado por el mundo empresarial los animales y el Hardware.
+    		 </p>
+      </div><br/>
 		</div>
 
     <div class="Navegador">
@@ -83,14 +88,20 @@
 
           </div>
 
-        <form action="">
+        <form action="mailto:juambersaezgarcia@gmail.com">
           <input type="text" placeholder="Nombre" name="" id="" class="Parte1">
           <input type="text" placeholder="Correo" name="" id="" class="Parte2">
           <input type="text" placeholder="Asunto" name="" id="">
           <textarea name="name" rows="8" cols="80" placeholder=""></textarea>
-          <input type="submit" name="" value="Enviar">
+          <input type="submit" name="" id="btn" value="Enviar">
         </form>
       </div>
   </div>
+  <script>
+      let btn = document.getElementById("btn");
+      btn.addEventListener("click",()=>{
+        alert("Lo Sentimos, El Fromulario No Funciona, Contacta Por Alguna Otra Vía")
+      })
+  </script>
 </body>
 </html>
