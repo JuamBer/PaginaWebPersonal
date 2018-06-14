@@ -5,16 +5,22 @@
 
 .Habilidades {
   background: #128C4E;
-  width:90%;
+  width:85%;
   padding: 5%;
+  padding-left: 10%;
   border-radius: 25px;
 }
 .Habilidades h2 {
  text-align: center;
  font-size: 40px;
+ width: 100%;
 }
+
 .Habilidades ul {
+  background: #024027;
   width: 40%;
+  border-radius: 20px;
+  color:white;
   display: inline-block;
   margin: 1%;
   padding: 2.5%;

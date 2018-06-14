@@ -27,6 +27,11 @@
   outline: none;
 
 }
+
+.Contacto .Nombre {
+  display: flex;
+  justify-content:space-around;
+}
 .Contacto input:focus {
   border-top: 3px solid black;
   text-align: left;
@@ -52,12 +57,12 @@
   cursor:pointer
 }
 .Contacto input.Parte1 {
-  width: 45%;
+  width: 40%;
   float: left;
+
 }
 .Contacto input.Parte2 {
-  width: 45%;
+  width: 40%;
   float: left;
-  margin-left:1%
 
 }
