@@ -68,25 +68,37 @@ header {
 .Redes {
 	border-top: 5px solid #401309;
 	padding-top: 25px;
+	padding: 20px;
 }
 .Redes li{
+	margin-top: 15px;
 	color:white;
 	display: inline-block;
-	padding: 5%;
-	width: 35%;
+	width: 20%;
 	text-align: center;
+}
+.Redes ul {
+	display: flex;
+	justify-content: space-around;
+	margin-left: -8px;
 }
 
 .Redes li a{
-	color: white;
+	color: black;
 	font-size: 18px;
 	display: block;
 	text-decoration: none;
 	transition: 0.1s;
+	padding: 5%;
+
 }
 .Redes li a:hover{
-	background: #401309;
-	padding: 5%;
-	margin: -5%;
+	background: #fff;
 	border-radius: 5px;
+}
+.Redes li img {
+	margin-top: 5px;
+	width: 30px;
+	color: white;
+
 }
