@@ -7,14 +7,17 @@
 .SobreMi div.Title {
   background: #024027;
   padding: 3%;
-  border-top-left-radius: 60px;
+  padding-bottom: calc(3% + 50px);
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
   text-align: center;
+  overflow: hidden;
 }
 .SobreMi div.Text {
   background: #128C4E;
   padding: 3%;
-  border-bottom-right-radius: 60px;
-
+  border-radius: 40px;
+  margin-top: -50px;
 }
 .SobreMi div.Text img{
   width: 35%;
