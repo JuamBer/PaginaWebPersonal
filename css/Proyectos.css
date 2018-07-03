@@ -37,6 +37,7 @@
 .Proyectos ul li.ProyectoGrande div.Botones  {
   display: none;
   justify-content:space-around;
+  margin-left: -10%;
   width: 100%;
 }
 .Proyectos ul li div.Botones a.Ver{
