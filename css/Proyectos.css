@@ -1,12 +1,7 @@
 /* COLORES: #128C4E  #8C261A #024027 #401309*/
 
 
-.Proyectos ul li.ProyectoNormal {
-  background: #128C4E;
-  width: 40%;
-  padding: 4%;
-  margin: 1%;
-}
+
 .Proyectos ul li.ProyectoGrande {
   background: #128C4E;
   width: 90%;
@@ -61,77 +56,6 @@
   background: #401309;
   color:white;
 }
-
-
-
-
-
-
-
-
-.Proyectos ul li.Primero:hover {
-  border-top: 5px solid black;
-  animation-name: Primero;
-  animation-duration: 0.2s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-.Proyectos ul li.Segundo:hover {
-  border-top: 5px solid black;
-  animation-name: Segundo;
-  animation-duration: 0.2s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-@keyframes Primero {
-    0% { height: 200px; width: 40%;}
-    50% { height: 230px; width: 50%;}
-    100% { height: 235px; width: 60%;}
-}
-@keyframes Segundo {
-    0% {float: right; height: 200px; width: 40%;}
-    50% {float: right; height: 230px; width: 50%;}
-    100% {float: right; height: 235px; width: 60%;}
-}
-
-.Proyectos ul li.Primero:hover > div.Botones {
-  justify-content: space-evenly;
-  display: flex;
-
-}
-.Proyectos ul li.Segundo:hover > div.Botones {
-  display: flex;
-  justify-content: space-evenly:
-}
-
-
-
-
-
-
-.Proyectos ul li.Primero:hover ~ .Segundo{
-  animation-name: Pequeño;
-  animation-duration: 0.2s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-.Proyectos ul li.Segundo:hover ~ .Primero{
-  animation-name: Pequeño;
-  animation-duration: 0.2s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-@keyframes Pequeño {
-    0% { height: 200px; width: 40%;}
-    50% { height: 230px; width: 30%;}
-    100% { height: 235px; width: 20%;}
-}
-
-
-
-
-
-
 .Proyectos ul li.ProyectoGrande:hover {
   border-top: 5px solid black;
   animation-name: Grande;
