@@ -32,9 +32,7 @@ header {
 	padding-bottom: 2%;
 	text-align: center;
 }
-.Navegador {
 
-}
 .Navegador ul li {
 	width: calc(100%-20px);
 	list-style: none;
@@ -44,9 +42,15 @@ header {
 	border-top: 5px solid #401309;
 	transition: 0.5s;
 }
+
 .Navegador ul li:hover {
 	background: #401309;
 	cursor:pointer;
+}
+.Navegador ul li:active {
+  background: red;
+	transition-duration: 20s;
+
 }
 .Navegador ul li:hover > a{
 	color:white;
