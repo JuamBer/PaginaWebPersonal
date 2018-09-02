@@ -15,9 +15,9 @@
  font-size: 40px;
  padding: 10px;
  background: #8C261A;
- border-radius: 50px;
- border:solid #401309 5px;
- width: 89%;
+ border-radius: 20px;
+ width: 92%;
+ margin-bottom: 20px;
 }
 
 .Habilidades ul {
@@ -38,13 +38,4 @@
 .Habilidades ul li b {
   padding: 10px;
   transition: 0.3s;
-}
-.Habilidades ul:hover > li b{
-  color: white;
-  font-size: 30px;
-}
-.Habilidades ul:hover {
-  background: #024027;
-  border-radius: 20px;
-  color:white
 }
