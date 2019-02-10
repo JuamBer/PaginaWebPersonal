@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" id="text">
+  <button type="button" name="button" id="btn">OENEAR</button>
+  <textarea name="name" rows="8" cols="80" id="textooen"></textarea>
+  <script type="text/javascript">
+
+        var btn = document.getElementById('btn');
+
+        btn.addEventListener("click",()=>{
+          var texto =   document.getElementById('text').value;
+          var textooen = document.getElementById('textooen');
+
+            var nuevotexto = texto.replace(/ /g,"oen ");
+            var textofinal = nuevotexto+"oen";
+            textooen.value = textofinal;
+            
+            texto.value = "";
+        });
+
+
+  </script>
+</body>
+</html>
