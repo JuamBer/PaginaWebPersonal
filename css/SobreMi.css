@@ -1,0 +1,37 @@
+/* COLORES: #128C4E  #8C261A #024027 #401309*/
+
+.SobreMi  {
+  margin-top: 25px;
+  color: white
+}
+.SobreMi div.Title {
+  background: #024027;
+  padding: 3%;
+  padding-bottom: calc(3% + 50px);
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+.SobreMi div.Text {
+  background: #128C4E;
+  padding: 3%;
+  border-radius: 40px;
+  margin-top: -50px;
+
+}
+.SobreMi div.Text img{
+  width: 35%;
+  border-radius: 20px;
+  float: left;
+  margin-right: 2%;
+
+}
+.SobreMi div.Text p{
+  width: 90%;
+  font-size: 20px;
+  text-align: left;
+  margin-left: -5%;
+  text-align: justify;
+
+}

@@ -1,0 +1,75 @@
+/* COLORES: #128C4E  #8C261A #024027 #401309*/
+
+
+
+.Proyectos ul li.ProyectoGrande {
+  background: #128C4E;
+  width: 90%;
+  padding: 4%;
+  margin: 1%;
+  transition: 0.4s;
+}
+.Proyectos ul li {
+  border-top: 5px solid white;
+  height: 200px;
+  list-style: none;
+  float:left;
+}
+.Proyectos ul li a {
+  text-decoration: none;
+  color:black;
+  text-align: center;
+}
+.Proyectos ul li.ProyectoGrande img {
+  width: 150px;
+  padding: 10px;
+  padding-right: 40px;
+  float: left;
+}
+
+
+.Proyectos ul li.ProyectoGrande p {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.Proyectos ul li.ProyectoGrande div.Botones  {
+  display: none;
+  justify-content:space-around;
+  margin-left: -10%;
+  width: 100%;
+}
+.Proyectos ul li div.Botones a.Ver{
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+  background: #024027;
+  border-radius: 5px;
+  border: 3px solid #024027;
+  transition: 0.2s;
+  margin-top: 20px;
+    color:white;
+}
+.Proyectos ul li div.Botones a.Ver:hover {
+  border-radius: 10px;
+
+}
+.Proyectos ul li.ProyectoGrande:hover {
+  border-top: 5px solid black;
+  animation-name: Grande;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes Grande {
+    0% { height: 200px; }
+    50% { height: 270px; }
+    100% { height: 300px; }
+}
+
+
+
+.Proyectos ul li.ProyectoGrande:hover > div.Botones{
+  display: flex;
+ }
