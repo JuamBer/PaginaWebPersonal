@@ -28,10 +28,6 @@
 
 }
 
-.Contacto .Nombre {
-  display: flex;
-  justify-content:space-around;
-}
 .Contacto input:focus {
   border-top: 3px solid black;
   text-align: left;
@@ -40,31 +36,23 @@
   border-top: 3px solid black;
   text-align: left;
 }
-.Contacto input[type="submit"] {
+.Contacto button {
   background: #024027;
+  width: 85%;
   border: 2.5px #024027 solid;
   border-radius: 15px;
   transition: 0.2s;
   font-size: 20px;
   color:white;
+  padding: 5px;
   text-align: center;
 }
-.Contacto input[type="submit"]:hover {
+.Contacto button:hover {
   border-radius: 20px;
   font-size: 25px;
   color:white;
   border-radius: 20px;
-  padding: 12.5px;
+  padding: 10px;
   cursor:pointer;
-
-}
-.Contacto input.Parte1 {
-  width: 40%;
-  float: left;
-
-}
-.Contacto input.Parte2 {
-  width: 40%;
-  float: left;
 
 }
