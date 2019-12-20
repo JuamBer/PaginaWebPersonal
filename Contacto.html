@@ -95,28 +95,19 @@
       </div>
 
       <div class="Contacto">
-
+        <form id="myform" method="post">
+          <input placeholder="Nombre" type="text" name="from_name" />
+          <input placeholder="Email" type="text" name="from_email" />
+          <input placeholder="Asunto" type="text" name="subject" />
+          <textarea rows="8" placeholder="Texto..." type="text" name="message"></textarea>
+          <br/>
+          <button>Enviar</button>
+        </form>
       </div>
   </div>
-  <form id="myform" method="post">
-<label>fram_name</label>
-<input type="text" name="fram_name" />
-<label>from_email</label>
-<input type="text" name="from_email" />
-<label>subject</label>
-<input type="text" name="subject" />
-<label>from_name</label>
-<input type="text" name="from_name" />
-<label>message</label>
-<input type="text" name="message" />
-<br><br>
-<button>
-Send
-</button>
-</form>
 
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
    (function(){
