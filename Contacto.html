@@ -95,29 +95,19 @@
       </div>
 
       <div class="Contacto">
-
-          <div class="red">
-
-          </div>
-          <div class="red">
-
-          </div>
-          <div class="red">
-
-          </div>
-
         <form action="mailto:juambersaezgarcia@gmail.com">
           <div class="Nombre">
-            <input type="text"  v-model="from_name" placeholder="Nombre" name="" id="" class="Parte1">
-            <input type="email"  v-model="from_email" placeholder="Correo" name="" id="" class="Parte2">
+            <input type="text" placeholder="Nombre"  class="Parte1" v-model="from_name">
+            <input type="email" placeholder="Correo" class="Parte2" v-model="from_email">
           </div>
-          <input type="text"  v-model="subject" placeholder="Asunto" name="" id="">
-          <textarea name="name"  v-model="message" rows="8" cols="80" placeholder=""></textarea>
-          <button @click="enviar" name="" id="btn"> Enviar</button>
+          <input type="text" placeholder="Asunto"  v-model="subject">
+          <textarea name="name" rows="8" cols="80" v-model="message"></textarea>
+          <button @click="enviar"> Enviar </button>
         </form>
       </div>
   </div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
   <script>
             (function(){
                 emailjs.init("user_MtYVc2MLcYIthpwMIp87F");
