@@ -56,3 +56,6 @@
   cursor:pointer;
 
 }
+body .Redes .moviles {
+  visibility: hidden;
+}
