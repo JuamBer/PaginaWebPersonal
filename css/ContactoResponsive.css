@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1100px) {
 
+  .Contacto {
+    margin: 0px;
+    background: red;
 
+  }
   body .Redes .moviles {
     visibility:visible;
   }
@@ -11,9 +15,5 @@
   body .Main .Contacto form textarea {
     width: 85%;
   }
-  .Contacto {
-    margin: 0px;
 
-
-  }
 }
