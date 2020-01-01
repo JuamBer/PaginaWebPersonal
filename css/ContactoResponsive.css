@@ -11,4 +11,9 @@
   body .Main .Contacto form textarea {
     width: 85%;
   }
+  .Contacto {
+    margin: 1%;
+
+
+  }
 }
