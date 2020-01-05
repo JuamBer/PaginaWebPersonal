@@ -5,3 +5,10 @@
      width: 92%;
    }
  }
+ @media only screen and (max-width: 470px) {
+   body .Main .Habilidades {
+     text-align: center;
+     margin-left: -5%;
+   }
+
+}

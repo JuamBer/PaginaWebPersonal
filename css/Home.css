@@ -1,10 +1,10 @@
 
-/* COLORES: #128C4E  #8C261A #024027 #401309*/
+/* COLORES: #024027 #2D8C5F*/
 
 
 
 .Habilidades {
-  background: #128C4E;
+
   width:85%;
   padding: 5%;
   padding-left: 10%;
@@ -14,18 +14,19 @@
  text-align: center;
  font-size: 40px;
  padding: 10px;
- background: #024027;
- color: white;
- border-radius: 20px;
+  border: 3px #2D8C5F solid;
+
+   border-radius: 25px;
  width: 92%;
  margin-bottom: 20px;
 }
 
 .Habilidades ul {
-  background: #024027;
+  border: 3px #2D8C5F solid;
+
   width: 40%;
-  border-radius: 20px;
-  color:white;
+    border-radius: 25px;
+  color: black;
   display: inline-block;
   margin: 1%;
   padding: 2.5%;
@@ -35,8 +36,14 @@
   font-size: 25px;
   list-style: none;
   text-align: center;
+  left: 0;
 }
 .Habilidades ul li b {
   padding: 10px;
   transition: 0.3s;
+
+}
+.Habilidades ul li.html {
+  border-radius: 10px;
+
 }

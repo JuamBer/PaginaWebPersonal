@@ -1,7 +1,7 @@
-/* COLORES: #128C4E  #8C261A #024027 #401309 #2D8C5F*/
+/* COLORES: #024027 #2D8C5F*/
 
 .Contacto {
-  background: #128C4E;
+  background: white;
   padding: 10%;
   text-align: center;
   margin: 35px;
@@ -17,42 +17,32 @@
   width: 90%;
   padding: 15px;
   margin-bottom: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   color:black
   border:none;
   transition: 0.2s;
   text-align: left;
-  border-top: 3px solid #128C4E;
+  border: 3px solid #2D8C5F;
   outline: none;
-
 }
 
-.Contacto input:focus {
-  border-top: 3px solid black;
-  text-align: left;
-}
-.Contacto textarea:focus {
-  border-top: 3px solid black;
-  text-align: left;
-}
 .Contacto button {
-  background: #024027;
-  width: 85%;
-  border: 2.5px #024027 solid;
-  border-radius: 15px;
+  background: white;
+  width: 70%;
+  color: #024027;
+  border: 3px #2D8C5F solid;
+  border-radius: 10px;
   transition: 0.2s;
   font-size: 20px;
-  color:white;
   padding: 5px;
   text-align: center;
 }
 .Contacto button:hover {
-  border-radius: 20px;
-  font-size: 25px;
   color:white;
-  border-radius: 20px;
-  padding: 10px;
+  background:#024027;
+  border: 3px #024027 solid;
+
   cursor:pointer;
 
 }

@@ -1,5 +1,5 @@
 
-/* COLORES: #128C4E  #8C261A #024027 #401309*/
+/* COLORES: #024027 #2D8C5F*/
 
 *{
 	font-family: 'Titillium Web';
@@ -7,21 +7,17 @@
 	padding: 0px;
 }
 body {
-	background: white;
 }
 header {
-	background: #8C261A;
-	color:white;
 	height: 175vh;
 	width: 25%;
+
 	float: left;
 }
-.FotoPerfil {
-	width: 100%;
-}
+
 .FotoPerfil img {
 	margin: 20%;
-	border: 10px #401309 solid;
+	border: 0px #024027 solid;
 	margin-bottom: 5%;
 	width: 60%;
 	height: auto;
@@ -39,41 +35,45 @@ header {
 .Navegador ul li {
 	width: calc(100%-20px);
 	list-style: none;
-	padding: 20px;
+	padding: 5px;
+	margin: 15px;
 	text-align: center;
 	font-size: 20px;
-	border-top: 5px solid #401309;
-	transition: 0.5s;
+	border: 3px solid #2D8C5F;
+	color:#024027;
+	border-radius: 10px;
+	transition: 0.3s;
 }
 .Navegador ul li:hover {
-	background: #401309;
+	background: #024027;
+	color:white;
 	cursor:pointer;
+	border: 3px solid #024027;
+
 }
 .Navegador ul li:hover > a{
 	color:white;
-	font-size: 25px;
+
 
 }
 .Navegador ul li a {
 	text-decoration: none;
-	color: rgb(152, 152, 152);
+	color: #024027;
 }
 .Navegador ul li.active {
-	background: #401309;
+
 }
 .Navegador ul li.active > a{
-	color:white;
-	font-size: 25px;
+
 
 }
 .Redes {
-	border-top: 5px solid #401309;
 	padding-top: 25px;
 	padding: 20px;
 }
 .Redes li{
 	margin-top: 15px;
-	color:white;
+	color:;
 	display: inline-block;
 	width: 20%;
 	text-align: center;
@@ -94,7 +94,7 @@ header {
 
 }
 .Redes li a:hover{
-	background: #fff;
+	background: #2D8C5F;
 	border-radius: 5px;
 }
 .Redes li img {
