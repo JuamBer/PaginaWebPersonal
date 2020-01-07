@@ -89,12 +89,12 @@
 
   }
   header .Navegador ul li {
-    border:3px solid #2D8C5F;
+    border:5px solid #2D8C5F;
 
   }
 
   header .Navegador ul li:hover {
-    border:3px solid #024027;
+    border:5px solid #024027;
     background: #024027;
     color:white;
 ;
