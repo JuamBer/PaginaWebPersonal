@@ -19,6 +19,7 @@
   header .FotoPerfil div h1{
     margin-top: 20px;
   }
+
   header .FotoPerfil div p{
     display: none;
   }
@@ -36,6 +37,9 @@
       border: 0px;
       width: 10%;
       color:black;
+      box-shadow:  none;
+      text-shadow: 2px 0px 3px rgba(0,0,0,0.75);
+
   }
 
   header .Navegador nav ul li:hover {
@@ -118,11 +122,27 @@
   }
   header .Navegador nav ul li {
 
-    border:#2D8C5F 3px solid;
+    border:#2D8C5F 4px solid;
     width: 90%;
     height: auto;
     padding: 4px;
     margin: 4px;
-  }
+    text-shadow: none;
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
 
+  }
+  header .Navegador nav ul li:hover {
+
+    background: #024027 ;
+    border:4px #024027 solid;
+    color:white;
+
+  }
+  header .Navegador nav ul li:active {
+
+    background: #024027 ;
+    border:4px #024027 solid;
+    color:white;
+
+  }
 }
