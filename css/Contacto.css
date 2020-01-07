@@ -23,7 +23,7 @@
   border:none;
   transition: 0.2s;
   text-align: left;
-  border: 3px solid #2D8C5F;
+  border: 5px solid #2D8C5F;
   outline: none;
 }
 
@@ -31,7 +31,7 @@
   background: white;
   width: 70%;
   color: #024027;
-  border: 3px #2D8C5F solid;
+  border: 5px #2D8C5F solid;
   border-radius: 10px;
   transition: 0.2s;
   font-size: 20px;
@@ -41,7 +41,7 @@
 .Contacto button:hover {
   color:white;
   background:#024027;
-  border: 3px #024027 solid;
+  border: 5px #024027 solid;
 
   cursor:pointer;
 
