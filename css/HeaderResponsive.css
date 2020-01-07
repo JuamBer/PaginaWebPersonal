@@ -142,6 +142,10 @@
 
     background: #024027 ;
     border:4px #024027 solid;
+
+  }
+  header .Navegador nav ul li:hover > a{
+
     color:white;
 
   }
