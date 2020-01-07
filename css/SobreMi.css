@@ -4,9 +4,9 @@
   margin-top: 25px;
 }
 .SobreMi div.Title {
-  border-top:3px solid #2D8C5F;
-  border-left:3px solid #2D8C5F;
-  border-right:3px solid #2D8C5F;
+  border-top:5px solid #2D8C5F;
+  border-left:5px solid #2D8C5F;
+  border-right:5px solid #2D8C5F;
   padding: 3%;
   padding-bottom: calc(3% + 50px);
   border-top-right-radius: 25px;
@@ -16,7 +16,7 @@
   background: ;
 }
 .SobreMi div.Text {
-  border:3px solid #2D8C5F;
+  border:5px solid #2D8C5F;
   padding: 3%;
   border-radius: 25px;
   margin-top: -50px;
