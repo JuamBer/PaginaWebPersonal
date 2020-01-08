@@ -138,8 +138,13 @@
     color:white;
 
   }
-  header h1 > div {
-    display: none;
+  .FotoPerfil .movil{
+  	display: inline;
+
+  }
+  .FotoPerfil .pc{
+  	display: none;
+
   }
   header .Navegador nav ul li:active {
 
