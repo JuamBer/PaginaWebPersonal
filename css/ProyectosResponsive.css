@@ -9,7 +9,7 @@
    justify-content: space-around;
   }
    .Proyectos ul li.ProyectoGrande:hover {
-     border-top: 5px white solid;
+     border-top: 5px #024027 solid;
      animation : none;
    }
 
