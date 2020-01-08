@@ -138,8 +138,8 @@
     color:white;
 
   }
-  header h1 {
-  
+  header h1 > div {
+    display: none;
   }
   header .Navegador nav ul li:active {
 
