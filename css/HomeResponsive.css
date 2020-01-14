@@ -9,6 +9,12 @@
    body .Main .Habilidades {
      text-align: center;
      margin-left: -5%;
+     margin-top: -10px;
    }
-
+   body .Main .Habilidades ul{
+     margin-top: 10px;
+   }
+   .Habilidades h2 {
+        margin-bottom: 0px;
+   }
 }
