@@ -30,7 +30,9 @@ header h1 {
 }
 header .Navegador nav ul li {
   display: inline-block;
-  padding-top: 25px;
+  margin-top: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   height: 30px;
   border: 0px;
   width: 10%;
@@ -42,9 +44,10 @@ header .Navegador nav ul li:hover {
   font-size: auto;
   background: none;
   border: none;
+  border: none;
 }
 header .Navegador nav ul li:hover > a{
-  color:  #024027
+  color:  #024027;
 }
 header .Redes  {
   display: none;
@@ -57,10 +60,12 @@ header h1 {
 }
 header .Navegador nav ul li {
   display: inline-block;
-  padding-top: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   height: 30px;
   border: 0px;
-  width: 16%;}
+  width: 100%;}
+
 header {
   width: 100%;
   height: auto;
@@ -89,7 +94,6 @@ header .Navegador ul li {
   border:5px solid #2D8C5F;
 }
 header .Navegador ul li:hover {
-  border:5px solid #024027;
   background: #024027;
   color:white;
 }
