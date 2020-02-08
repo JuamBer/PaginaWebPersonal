@@ -1,19 +1,19 @@
 /* COLORES: #024027 #2D8C5F*/
 
 .Main {
-	width: 65%;
-	float: left;
-	padding: 5%;
+  width: 65%;
+  float: left;
+  padding: 5%;
   min-height: calc(100vh + 100px);
 }
 .Titulo {
-	color:black;
-	border: 5px #024027 solid;
+  color:black;
+  border: 5px #024027 solid;
   padding: 2.5%;
   border-radius: 25px;
   text-align: center;
-	margin-bottom: 30px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
 }
 .Titulo h1 {
   margin-bottom: 15px;
