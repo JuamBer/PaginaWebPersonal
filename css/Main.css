@@ -6,7 +6,6 @@
 	padding: 5%;
   min-height: calc(100vh + 100px);
 }
-
 .Titulo {
 	color:black;
 	border: 5px #024027 solid;
@@ -15,7 +14,6 @@
   text-align: center;
 	margin-bottom: 30px;
 	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-
 }
 .Titulo h1 {
   margin-bottom: 15px;

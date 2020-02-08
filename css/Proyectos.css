@@ -1,7 +1,5 @@
 /* COLORES: #024027 #2D8C5F*/
 
-
-
 .Proyectos ul li.ProyectoGrande {
   border:5px solid #2D8C5F;
   width: 90%;
@@ -10,7 +8,6 @@
   margin: 1%;
   transition: 0.4s;
   box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-
 }
 .Proyectos ul li {
   border-top: 5px solid white;
@@ -29,21 +26,17 @@
   padding-right: 40px;
   float: left;
 }
-
-
 .Proyectos ul li.ProyectoGrande p {
   padding: 20px;
   font-size: 20px;
   text-align: left;
 }
-
 .Proyectos ul li.ProyectoGrande div.Botones  {
   display: none;
   justify-content:space-around;
   margin-left: -10%;
   width: 100%;
 }
-/* COLORES: #024027 #2D8C5F*/
 .Proyectos ul li div.Botones a.Ver{
   padding: 8px;
   font-size: 20px;
@@ -60,11 +53,8 @@
   background: #024027;
   color:white;
   border: 4px solid #024027;
-
-
 }
 .Proyectos ul li.ProyectoGrande:hover {
-
   animation-name: Grande;
   animation-duration: 0.2s;
   animation-timing-function: linear;
@@ -75,9 +65,6 @@
     50% { height: 270px; }
     100% { height: 300px; }
 }
-
-
-
 .Proyectos ul li.ProyectoGrande:hover > div.Botones{
   display: flex;
  }

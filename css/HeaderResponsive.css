@@ -1,160 +1,138 @@
 /* COLORES: #024027 #2D8C5F*/
 
 @media only screen and (max-width: 1100px) {
-  header {
-    width: 100%;
-    height: auto;
-    height: 90px;
-  }
-  header .FotoPerfil   {
+header {
+  width: 100%;
+  height: auto;
+  height: 90px;
+}
+header .FotoPerfil{
+  width: 40%;
+  float: left;
+}
+header .FotoPerfil img {
+  margin:15px;
+  float: left;
+  width: 20%;
+}
+header .FotoPerfil div h1{
+  margin-top: 20px;
+}
 
-    width: 40%;
-    float: left;
-  }
-  header .FotoPerfil img {
-    margin:15px;
-    float: left;
-    width: 20%;
-  }
-  header .FotoPerfil div h1{
-    margin-top: 20px;
-  }
-
-  header .FotoPerfil div p{
-    display: none;
-  }
-    header h1 {
-      padding-top: 10px;
-    }
-  .Main {
-    width: 90%;
-  }
-
-  header .Navegador nav ul li {
-      display: inline-block;
-      padding-top: 25px;
-      height: 30px;
-      border: 0px;
-      width: 10%;
-      color:black;
-      box-shadow:  none;
-      text-shadow: 2px 0px 3px rgba(0,0,0,0.75);
-
-  }
-
-  header .Navegador nav ul li:hover {
-      font-size: auto;
-      background: none;
-      border: none;
-
-  }  header .Navegador nav ul li:hover >a{
-        color:  #024027
-
-    }
-  header .Redes  {
-    display: none;
-  }
+header .FotoPerfil div p{
+  display: none;
+}
+header h1 {
+  padding-top: 10px;
+}
+.Main {
+  width: 90%;
+}
+header .Navegador nav ul li {
+  display: inline-block;
+  padding-top: 25px;
+  height: 30px;
+  border: 0px;
+  width: 10%;
+  color:black;
+  box-shadow:  none;
+  text-shadow: 2px 0px 3px rgba(0,0,0,0.75);
+}
+header .Navegador nav ul li:hover {
+  font-size: auto;
+  background: none;
+  border: none;
+}
+header .Navegador nav ul li:hover > a{
+  color:  #024027
+}
+header .Redes  {
+  display: none;
+}
 }
 
 @media only screen and (max-width: 815px) {
-  header h1 {
-    margin-top: 0px;
-  }
-  header .Navegador nav ul li {
-      display: inline-block;
-      padding-top: 25px;
-      height: 30px;
-      border: 0px;
-      width: 16%;}
-  header {
-    width: 100%;
-    height: auto;
-    height: 200px;
-  }
-  header .FotoPerfil   {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    float: none;
-  }
-  header .FotoPerfil img  {
-      height: 80px;
-      margin: 15px;
-      width: 80px;
-
-  }
-  header .FotoPerfil h1  {
-    padding-top: 10px;
-    width: 100%;
-  }
-  header .Navegador nav ul{
-      display: flex;
-      justify-content:space-around;
-
-  }
-  header .Navegador ul li {
-    border:5px solid #2D8C5F;
-
-  }
-
-  header .Navegador ul li:hover {
-    border:5px solid #024027;
-    background: #024027;
-    color:white;
-;
-
-  }
+header h1 {
+  margin-top: 0px;
+}
+header .Navegador nav ul li {
+  display: inline-block;
+  padding-top: 25px;
+  height: 30px;
+  border: 0px;
+  width: 16%;}
+header {
+  width: 100%;
+  height: auto;
+  height: 200px;
+}
+header .FotoPerfil   {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  float: none;
+}
+header .FotoPerfil img  {
+  height: 80px;
+  margin: 15px;
+  width: 80px;
+}
+header .FotoPerfil h1  {
+  padding-top: 10px;
+  width: 100%;
+}
+header .Navegador nav ul{
+  display: flex;
+  justify-content:space-around;
+}
+header .Navegador ul li {
+  border:5px solid #2D8C5F;
+}
+header .Navegador ul li:hover {
+  border:5px solid #024027;
+  background: #024027;
+  color:white;
+}
 }
 
 @media only screen and (max-width: 470px) {
-  header .FotoPerfil   {
-    margin-left: -7.5%;
-  }
-  header {
-    text-align: center;
-    height: auto;
-  }
-  header .Navegador nav ul{
-      display:inline-block;
+header .FotoPerfil   {
+  margin-left: -7.5%;
+}
+header {
+  text-align: center;
+  height: auto;
+}
+header .Navegador nav ul{
+  display:inline-block;
   width: 81%;
   padding: 5%;
-
-  }
-  header .Navegador nav ul li {
-
-    border:#2D8C5F 4px solid;
-    width: 90%;
-    height: auto;
-    padding: 4px;
-    margin: 4px;
-    text-shadow: none;
-    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-
-  }
-  header .Navegador nav ul li:hover {
-
-    background: #024027 ;
-    border:4px #024027 solid;
-    color:white;
-
-  }
-  .FotoPerfil .movil{
-  	display: inline;
-
-  }
-  .FotoPerfil .pc{
-  	display: none;
-
-  }
-  header .Navegador nav ul li:active {
-
-    background: #024027 ;
-    border:4px #024027 solid;
-
-  }
-  header .Navegador nav ul li:hover > a{
-
-    color:white;
-
-  }
+}
+header .Navegador nav ul li {
+  border:#2D8C5F 4px solid;
+  width: 90%;
+  height: auto;
+  padding: 4px;
+  margin: 4px;
+  text-shadow: none;
+  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+}
+header .Navegador nav ul li:hover {
+  background: #024027 ;
+  border:4px #024027 solid;
+  color:white;
+}
+.FotoPerfil .movil{
+  display: inline;
+}
+.FotoPerfil .pc{
+  display: none;
+}
+header .Navegador nav ul li:active {
+  background: #024027 ;
+  border:4px #024027 solid;
+}
+header .Navegador nav ul li:hover > a{
+  color:white;
+}
 }

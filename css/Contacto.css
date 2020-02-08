@@ -8,11 +8,7 @@
   border-radius: 25px;
   max-height: 420px
   color:black;
-
-
 }
-
-
 .Contacto input,textarea{
   width: 90%;
   padding: 15px;
@@ -26,9 +22,7 @@
   border: 5px solid #2D8C5F;
   outline: none;
   box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-
 }
-
 .Contacto button {
   background: white;
   width: 70%;
@@ -40,16 +34,13 @@
   padding: 5px;
   text-align: center;
   box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-
 }
 .Contacto button:hover {
   color:white;
   background:#024027;
   border: 4px #024027 solid;
-
   cursor:pointer;
-
 }
 body .Redes .moviles {
-display: none;
+  display: none;
 }
