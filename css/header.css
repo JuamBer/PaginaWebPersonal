@@ -67,6 +67,7 @@ header {
 }
 .Redes ul {
 	display: flex;
+  display: -moz-box;
 	justify-content: space-around;
 	margin-left: -8px;
 }
