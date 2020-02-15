@@ -54,6 +54,43 @@ header {
 	text-decoration: none;
 	color: #024027;
 }
+/* COLORES: #024027 #2D8C5F*/
+.Idiomas ul{
+	margin-left:10%;
+	margin-top: 10%;
+
+}
+.Idiomas ul li{
+	display: inline-block;
+	padding: 2.5%;
+	margin: 0px;
+	width: 35%;
+	text-align: center;
+	border: 2.5px solid #024027;
+}
+.Idiomas ul li.Esp{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-right: 0%;
+
+}
+.Idiomas ul li.Eng{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-left: 0%;
+}
+.Idiomas ul a.active > li{
+	background:#024027;
+}
+.Idiomas ul a{
+text-decoration:none;
+color:black;
+
+}
+.Idiomas ul a.active{
+	color:white;
+}
+
 .Redes {
 	padding-top: 25px;
 	padding: 20px;

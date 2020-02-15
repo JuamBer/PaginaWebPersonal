@@ -52,9 +52,16 @@ header .Navegador nav ul li:hover > a{
 header .Redes  {
   display: none;
 }
+body header .Idiomas {
+visibility: hidden;
+}
 }
 
 @media only screen and (max-width: 815px) {
+body header .Idiomas {
+  visibility:hidden;
+}
+
 header h1 {
   margin-top: 0px;
 }
@@ -65,7 +72,9 @@ header .Navegador nav ul li {
   height: 30px;
   border: 0px;
   width: 100%;}
-
+.Titulo {
+  margin-top: 0%;
+}
 header {
   width: 100%;
   height: auto;
@@ -100,6 +109,12 @@ header .Navegador ul li:hover {
 }
 
 @media only screen and (max-width: 470px) {
+body header .Idiomas {
+  visibility: hidden;
+}
+.Titulo {
+  margin-top: 0%;
+}
 header .FotoPerfil   {
   margin-left: -7.5%;
 }

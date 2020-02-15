@@ -4,9 +4,18 @@ body .Main .Habilidades ul{
   margin-top: 50px;
   width: 92%;
 }
+
+
 }
 @media only screen and (max-width: 470px) {
-
+body header .Idiomas {
+  visibility: visible;
+  width: 90%;
+  margin-left: 0%;
+}
+.Titulo {
+  margin-top: 10%;
+}
 body .Main .Habilidades {
   text-align: center;
   margin-left: -5%;
