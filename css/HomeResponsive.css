@@ -4,7 +4,48 @@ body .Main .Habilidades ul{
   margin-top: 50px;
   width: 92%;
 }
+.IdiomasMedianas {
+  display: inline;
+}
+.IdiomasMedianas ul{
+  margin-bottom: 40px;
+  margin-left: 20%;
+}
+.IdiomasMedianas ul a{
+  width: 100%;
+}
+.IdiomasMedianas ul li{
+  list-style: none;
+  display: inline-block;
+	padding-top:1%;
+  padding-bottom:1%;
+	margin-bottom: 5px;
+	width: 35%;
+	text-align: center;
+	border: 2.5px solid #024027;
+}
+.IdiomasMedianas ul li.Esp{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-right: 0%;
 
+}
+.IdiomasMedianas ul li.Eng{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-left: 0%;
+}
+.IdiomasMedianas ul a.active > li{
+	background:#024027;
+}
+.IdiomasMedianas ul a{
+text-decoration:none;
+color:black;
+
+}
+.IdiomasMedianas ul a.active{
+	color:white;
+}
 
 }
 @media only screen and (max-width: 470px) {
@@ -12,6 +53,9 @@ body header .Idiomas {
   visibility: visible;
   width: 90%;
   margin-left: 0%;
+}
+.IdiomasMedianas {
+  display: none;
 }
 .Titulo {
   margin-top: 10%;
