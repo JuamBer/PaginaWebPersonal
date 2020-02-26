@@ -149,14 +149,14 @@ event.preventDefault();
 var service_id = "default_service";
 var template_id = "personalweb";
 
-myform.find("button").text("Enviando...");
+myform.find("button").text("Sending...");
 emailjs.sendForm(service_id,template_id,myform[0])
   .then(function(){
     alert("Sent!");
-     myform.find("button").text("Enviado");
+     myform.find("button").text("¡Sent");
   }, function(err) {
-     alert("¡Fallo al enviar el E-mail!\r\n Response:\n " + JSON.stringify(err));
-     myform.find("button").text("¡Enviado!");
+     alert("¡Error E-mail!\r\n Response:\n " + JSON.stringify(err));
+     myform.find("button").text("¡Sent!");
   });
 return false;
 });
