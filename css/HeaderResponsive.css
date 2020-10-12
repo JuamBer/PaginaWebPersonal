@@ -118,10 +118,20 @@ body header .Idiomas {
 header .FotoPerfil   {
   margin-left: -7.5%;
 }
+
+
+.header {
+display:none !important;
+}
 header {
   text-align: center;
   height: auto;
+  position:relative;
+
 }
+
+
+
 header .Navegador nav ul{
   display:inline-block;
   width: 81%;
@@ -153,5 +163,9 @@ header .Navegador nav ul li:active {
 }
 header .Navegador nav ul li:hover > a{
   color:white;
+}
+.Main {
+  width: 85%;
+  margin-left: 7.5%;
 }
 }

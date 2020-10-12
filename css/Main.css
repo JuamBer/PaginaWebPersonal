@@ -1,10 +1,16 @@
 /* COLORES: #024027 #2D8C5F*/
 
+.MainIndex {
+	width: 62.5%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+}
 .Main {
 	width: 65%;
 	float: left;
-	padding: 5%;
-  min-height: calc(100vh + 100px);
+	margin-left: 12.5%;
+	margin-top: 5%;
 }
 .Titulo {
 	color:black;

@@ -71,4 +71,15 @@ body .Main .Habilidades ul{
 .Habilidades h2 {
   margin-bottom: 0px;
 }
+.timeline:before{
+  display: none;
 }
+.Habilidades ul {
+  width: 130%;
+}
+
+.timeline > li {
+  width: 140%;
+}
+}
+
