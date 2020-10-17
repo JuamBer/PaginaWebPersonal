@@ -1,19 +1,19 @@
 /* COLORES: #024027 #2D8C5F*/
 
 .Proyectos ul li.ProyectoGrande {
-  border:5px solid #2D8C5F;
   width: 90%;
   padding: 4%;
   border-radius: 25px;
   margin: 1%;
   transition: 0.4s;
-  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
+    border: 3px solid #2D8C5F;
+
 }
 .Proyectos ul li {
-  border-top: 5px solid white;
+
   height: 200px;
   list-style: none;
-  float:left;
 }
 .Proyectos ul li a {
   text-decoration: none;
@@ -30,6 +30,7 @@
   padding: 20px;
   font-size: 20px;
   text-align: left;
+
 }
 .Proyectos ul li.ProyectoGrande div.Botones  {
   display: none;
@@ -43,7 +44,7 @@
   text-align: center;
   border-radius: 5px;
   color:#024027;
-  border: 4px solid #2D8C5F;
+  border: 3px solid #2D8C5F;
   transition: 0.2s;
   margin-top: 20px;
   box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
@@ -68,3 +69,8 @@
 .Proyectos ul li.ProyectoGrande:hover > div.Botones{
   display: flex;
  }
+
+
+
+ 
+

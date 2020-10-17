@@ -14,13 +14,18 @@
 }
 .Titulo {
 	color:black;
-	border: 5px #024027 solid;
-  padding: 2.5%;
-  border-radius: 25px;
-  text-align: center;
-	margin-bottom: 30px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
-}
+	width: 100%;	
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;}
 .Titulo h1 {
-  margin-bottom: 15px;
+	font-size: 25px;
+	text-align: left;
 }
+
+.Titulo img{
+	max-height: 20px;
+	max-width: 20px;	
+	float: left;
+	padding: 10px;
+}
+

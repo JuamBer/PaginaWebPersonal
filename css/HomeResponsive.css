@@ -81,5 +81,11 @@ body .Main .Habilidades ul{
 .timeline > li {
   width: 140%;
 }
+.Habilidades {
+  width: 100%;
+}
+.Habilidades .Titulo h1{
+  width: 150%;
+}
 }
 

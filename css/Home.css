@@ -6,16 +6,18 @@
 
 }
 
-.Habilidades {
-  margin-top: -5%;
 
+
+.Habilidades {
   padding-bottom: 150;
+  width: 50%;
+  float: left;
 }
 
 .Habilidades ul {
-  width: 48%;  padding: 1%;
+  width: 98%;  
+  padding: 1%;
   color: black;
-  float: left;
   padding-bottom: 0%;
   transition: 0.2s;
 }
@@ -30,10 +32,7 @@
   color: white;
   left: 0;
 }
-.Habilidades ul li img {
-  height: 20px;
-  margin-right: 10px;
-}
+
 .Habilidades ul li.cien {
   width: 100%;
 }
@@ -58,13 +57,7 @@
 .Habilidades ul li.treinta {
   width: 30%;
 }
-.Habilidades ul li:first-child {
-  padding: 10px;
-  transition: 0.3s;
-  color: black;
-  background:none;
-  font-size: 25px;
-}
+
 .Habilidades ul li.html {
   border-radius: 10px;
 }

@@ -1,0 +1,134 @@
+/* COLORES: #024027 #2D8C5F*/
+
+.Experiencias {
+  width: 100%;
+
+ }
+
+ .Experiencias ul {
+  list-style: none;
+
+ }
+ .Experiencias ul.Grande {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+ }
+ .Experiencias ul li {
+ }
+
+ .ExperienciaPequeña {
+  border: 3px solid #2D8C5F;
+  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
+  padding: 1%;
+  border-radius: 10px;
+  width: 46%;
+  margin-top: 2%;
+ }
+.ExperienciaPequeña .FotoExperiencia{
+  width: 20%;
+  padding: 2.5%;
+
+ }
+ .ExperienciaPequeña .FotoExperiencia img{
+  width: 100%;
+  border-radius: 50%;
+ }
+
+.ExperienciaPequeña .FotoExperiencia{
+  width: 20%;
+  padding: 2.5%;
+  float: left;
+
+ }
+ .ExperienciaPequeña .FotoExperiencia img{
+  width: 100%;
+  border-radius: 50%;
+ }
+
+ 
+ .ExperienciaPequeña  p {
+    margin: none;
+    padding: none;
+    font-size: 17px;
+  text-align: justify;
+
+ }
+
+
+
+ .ExperienciaGrande{
+  border: 3px solid #2D8C5F;
+  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
+  padding: 1%;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 2%;
+ 
+ }
+ .ExperienciaGrande .arriba {
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+.ExperienciaGrande .FotoExperiencia{
+  width: 20%;
+  padding: 2.5%;
+
+ }
+ .ExperienciaGrande .FotoExperiencia img{
+  width: 100%;
+  border-radius: 50%;
+ }
+
+ .ExperienciaGrande .TextoExperiencia {
+   width: 90%;
+   margin-top: 2%;
+ } 
+ .ExperienciaGrande .TextoExperiencia p {
+    margin: none;
+    padding: none;
+    font-size: 17px;
+    margin-left: -10%;
+  text-align: justify;
+
+ }
+.ExperienciaGrande .TextoExperiencia .Nombre {
+    display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+.ExperienciaGrande .TextoExperiencia .Nombre img {
+   max-width: 35px;
+   margin-top: -5%;
+   margin-right: -10%;
+ } 
+ .ExperienciaGrande .mas {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+
+ } 
+.ExperienciaGrande .mas .Fotos {
+   width: 75%;
+   display: flex;
+   justify-content: space-around;
+ } 
+
+.ExperienciaGrande .mas .Fotos img {
+   float: left;
+   max-width: 50%;
+   max-height: 200px;
+} 
+.ExperienciaGrande .mas .Especificaciones {
+   width: 25%;
+  
+ } .ExperienciaGrande .mas .Fotos img:hover {
+   transform: scale(2)
+} 
+.s .mas .Especificaciones ul {
+  list-style-type: circle;
+  list-style: initial;
+}

@@ -15,3 +15,23 @@ body .Main .Contacto form textarea {
   width: 85%;
 }
 }
+@media only screen and (max-width: 700px) {
+
+.Contacto {
+  width: 100%;
+  margin-bottom: 60%;
+}
+.Redes {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.Ubicación{
+  width: 100%
+
+}
+.Ubicación iframe{
+  width: 100%
+
+}
+}
