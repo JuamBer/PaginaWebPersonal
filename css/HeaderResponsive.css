@@ -112,7 +112,7 @@ header .Navegador ul li:hover {
 }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 600px) {
 body header .Idiomas {
   visibility: visible;
   width: 90%;
