@@ -19,7 +19,6 @@
   text-align: left;
   border: 3px solid #2D8C5F;
   outline: none;
-  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Contacto button {
   background: white;
@@ -31,12 +30,11 @@
   font-size: 20px;
   padding: 5px;
   text-align: center;
-  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
 }
 .Contacto button:hover {
   color:white;
   background:#024027;
-  border: 4px #024027 solid;
+  border: 3px #024027 solid;
   cursor:pointer;
 }
 body .Redes .moviles {
@@ -78,40 +76,32 @@ body .Redes .moviles {
 .Redes li a#Twitter:hover{
 	background: rgba(0, 172, 238, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Redes li a#Instagram:hover{
 	background: rgba(193, 53, 132, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Redes li a#LinkedIn:hover{
 	background: rgba(14, 118, 168, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Redes li a#Youtube:hover{
 	background: rgba(196, 48, 43, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Redes li a#Stack:hover{
 	background: rgba(244, 128, 36, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Redes li a#Platzi:hover{
-	background: rgba(152, 202, 63, 0.8) ;;
+	background: rgba(152, 202, 63, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Redes li a#GitHub:hover{
-	background: rgba(36, 41, 46, 0.8) ;
+	background: rgba(36, 41, 46, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
 .Redes li a#Codepen:hover{
-	background:rgba(19, 20, 23, 0.8) ;
+	background:rgba(19, 20, 23, 0.8);
 	border-radius: 5px;
-	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
 }
