@@ -58,7 +58,12 @@ visibility: hidden;
 
 @media only screen and (max-width: 815px) {
 body header .Idiomas {
-  visibility:hidden;
+  visibility: visible;
+  width: 90%;
+  margin: 0%;
+  padding: 0%;
+  margin-top: -10%;
+  margin-bottom: -10%;
 }
 
 header h1 {
@@ -109,7 +114,20 @@ header .Navegador ul li:hover {
 
 @media only screen and (max-width: 470px) {
 body header .Idiomas {
-  visibility: hidden;
+  visibility: visible;
+  width: 90%;
+  margin: 0%;
+  padding: 0%;
+  margin-top: -10%;
+}
+body header .Idiomas .Esp{
+  padding: 1px;
+    border: 2px solid #024027;
+
+}
+body header .Idiomas .Eng{
+  padding: 1px;
+  border: 2px solid #024027;
 }
 .Titulo {
   margin-top: 0%;
@@ -134,14 +152,14 @@ header {
 header .Navegador nav ul{
   display:inline-block;
   width: 81%;
-  padding: 5%;
+  padding-bottom: 2.5%;  
 }
 header .Navegador nav ul li {
-  border:#2D8C5F 4px solid;
+  border:#2D8C5F 2px solid;
   width: 90%;
   height: auto;
-  padding: 4px;
-  margin: 4px;
+  padding: 1px;
+  margin: 2px;
   text-shadow: none;
 }
 header .Navegador nav ul li:hover {
@@ -157,7 +175,7 @@ header .Navegador nav ul li:hover {
 }
 header .Navegador nav ul li:active {
   background: #024027 ;
-  border:4px #024027 solid;
+  border:2px #024027 solid;
 }
 header .Navegador nav ul li:hover > a{
   color:white;
