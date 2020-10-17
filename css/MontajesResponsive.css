@@ -9,7 +9,7 @@ body .SobreMi .Text p {
   margin-left: -10px
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   body .SobreMi .Text img {
     display: none;
   }

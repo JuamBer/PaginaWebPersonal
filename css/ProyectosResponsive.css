@@ -14,7 +14,7 @@ body .Main .Proyectos ul li{
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
 .Proyectos ul li.ProyectoGrande div.Botones {
   display: inline;
