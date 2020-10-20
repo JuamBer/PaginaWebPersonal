@@ -126,9 +126,11 @@ header .Idiomas ul a.active{
 	}
 	header .Navegador nav ul{
 		display:inline-block;
-		width: 100%;
+		width: 95%;
 		padding: 0px;
 		margin: 0px;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 		padding-bottom: 2.5%;  
 	}
 	header .Navegador nav ul li {

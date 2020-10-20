@@ -49,7 +49,7 @@
     width: 98%;
     margin-top: 2%;
 }
-.ExperienciaGrande .arriba {
+.ExperienciaGrande .Superior {
     display: flex;
     justify-content: space-around;
 }
@@ -82,32 +82,29 @@
     margin-top: -5%;
     margin-right: -10%;
 } 
-.ExperienciaGrande .mas {
+.ExperienciaGrande .Inferior {
     width: 100%;
     display: flex;
     justify-content: space-around;
 } 
-.ExperienciaGrande .mas .Fotos {
+.ExperienciaGrande .Inferior .Fotos {
     width: 75%;
     display: flex;
     justify-content: space-around;
 } 
-.ExperienciaGrande .mas .Fotos img {
+.ExperienciaGrande .Inferior .Fotos img {
     float: left;
     max-width: 50%;
     max-height: 200px;
 } 
-.ExperienciaGrande .mas .Especificaciones {
+.ExperienciaGrande .Inferior .Especificaciones {
     width: 25%;
     font-size: 14px;
 } 
-.ExperienciaGrande .mas .Fotos img:hover {
+.ExperienciaGrande .Inferior .Fotos img:hover {
     transform: scale(2)
 } 
-.s .mas .Especificaciones ul {
-    list-style-type: circle;
-    list-style: initial;
-}
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -116,26 +113,27 @@
         margin-left: 2.5%;
         margin-bottom: 2.5%;
     }
-    .ExperienciaGrande .mas .Fotos img {
+    .ExperienciaGrande .Inferior .Fotos img {
         width: 100%;
         float: left;
     } 
-    .ExperienciaGrande .mas .Fotos img:hover {
+    .ExperienciaGrande .Inferior .Fotos img:hover {
         transform: scale(0);
     } 
-    .ExperienciaGrande .mas .Fotos  {
+    .ExperienciaGrande .Inferior .Fotos  {
         display: inline;
         width: 100%;
     } 
-    .ExperienciaGrande .mas  {
+    .ExperienciaGrande .Inferior  {
         display: inline;
     } 
-    .ExperienciaGrande .mas .Especificaciones {
+    .ExperienciaGrande .Inferior .Especificaciones {
         width: 100%;
         text-align: center;
         margin-top: 10%;
+        font-size: 18px;
     } 
-    .ExperienciaGrande .mas .Fotos img {
+    .ExperienciaGrande .Inferior .Fotos img {
         float: left;
         max-width: 90%;
         max-height: 100vh;
@@ -147,9 +145,6 @@
     .Experiencias ul.Grande {
         display: inline;
     }
-    .ExperienciaGrande .mas .Especificaciones {
-        font-size: 18px;
-    }    
 }
 
 
