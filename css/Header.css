@@ -1,0 +1,176 @@
+/* COLORES: #024027 #2D8C5F*/
+*{
+	font-family: 'Titillium Web';
+	margin:0px;
+	padding: 0px;
+}
+.header {
+	height: 100vh;
+	width: 17.5%;	
+	float: left;
+}
+header {
+	position:fixed;
+	height: 175vh;
+	width: 25%;
+}
+header .FotoPerfil img {
+	margin: 30%;
+	margin-top: 20%;
+	border: 0px #024027 solid;
+	margin-bottom: 5%;
+	width: 40%;
+	height: auto;
+	border-radius: 50%;
+}
+header .FotoPerfil h1, p {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+header .FotoPerfil .movil {
+	display: none;
+}
+header .Navegador ul li{
+	list-style: none;
+	margin: 15px;
+	text-align: center;
+	padding: 5px;
+	width: calc(100%-20px);
+	color:#024027;
+	font-size: 20px;
+	border: 3px solid #2D8C5F;
+	color:#024027;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+header .Navegador ul li.active{
+	color:white;
+	background: #024027;
+	border: 3px solid #024027;
+}
+header .Navegador ul a {
+	text-decoration: none;
+}
+header .Navegador ul a:hover > li {
+	color:white;
+	background: #024027;
+	border: 3px solid #024027;
+}
+header .Navegador ul li a {
+	text-decoration: none;
+	color: #024027;
+}
+header .Idiomas ul{
+	margin-left:10%;
+	margin-top: 10%;
+}
+header .Idiomas ul li{
+	display: inline-block;
+	padding: 2.5%;
+	margin: 0px;
+	width: 35%;
+	text-align: center;
+	border: 3px solid #024027;
+}
+header .Idiomas ul li.Esp{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-right: 0%;
+}
+header .Idiomas ul li.Eng{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-left: 0%;
+}
+header .Idiomas ul a.active > li{
+	background:#024027;
+}
+header .Idiomas ul a{
+	text-decoration:none;
+	color:black;
+}
+header .Idiomas ul a.active{
+	color:white;
+}
+
+@media only screen and (max-width: 1000px) {
+	.header {
+		display:none !important;
+	}
+	header {
+		text-align: center;
+		height: auto;
+		position:relative;
+		width: 100%;
+	}
+
+	header .FotoPerfil   {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		float: none;
+		margin-left: -7.5%;
+	}
+	header .FotoPerfil img  {
+		height: 80px;
+		margin: 15px;
+		width: 80px;
+	}
+	header .FotoPerfil h1  {
+		padding-top: 25%;
+		width: 100%;
+	}
+	header .FotoPerfil div p{
+		display: none;
+	}
+	header .Idiomas {
+		visibility: visible;
+		width: 100%;
+		margin: 0px;		
+		padding: 0px;
+		margin-top: -10%;
+		margin-left: -8%;
+	}
+	header .Idiomas .Esp{
+		padding: 1px;
+		border: 2px solid #024027;
+	}
+	header .Idiomas .Eng{
+		padding: 1px;
+		border: 2px solid #024027;
+	}
+	header .Navegador nav ul{
+		display:inline-block;
+		width: 81%;
+		padding-bottom: 2.5%;  
+	}
+	header .Navegador nav ul li {
+		border:#2D8C5F 2px solid;
+		width: 90%;
+		height: auto;
+		padding: 1px;
+		margin: 2px;
+		text-shadow: none;
+	}
+	header .Navegador nav ul li:hover {
+		background: #024027 ;
+		border:4px #024027 solid;
+		color:white;
+	}
+	header .FotoPerfil .movil{
+		display: inline;
+	}
+	header .FotoPerfil .pc{
+		display: none;
+	}
+	header .Navegador nav ul li:active {
+		background: #024027;
+		border:2px #024027 solid;
+	}
+	header .Navegador nav ul li:hover > a{
+		color:white;
+	}
+
+}

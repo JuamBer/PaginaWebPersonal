@@ -1,134 +1,155 @@
 /* COLORES: #024027 #2D8C5F*/
 
 .Experiencias {
-  width: 100%;
-
+    width: 100%;
  }
-
- .Experiencias ul {
-  list-style: none;
-
- }
- .Experiencias ul.Grande {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-
- }
- .Experiencias ul li {
- }
-
- .ExperienciaPequeña {
-  border: 3px solid #2D8C5F;
-  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
-  padding: 1%;
-  border-radius: 10px;
-  width: 46%;
-  margin-top: 2%;
- }
+.Experiencias ul {
+    list-style: none;
+}
+.Experiencias ul.Grande {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.ExperienciaPequeña {
+    border: 3px solid #2D8C5F;
+    padding: 1%;
+    border-radius: 10px;
+    width: 46%;
+    margin-top: 2%;
+}
 .ExperienciaPequeña .FotoExperiencia{
-  width: 20%;
-  padding: 2.5%;
-
- }
- .ExperienciaPequeña .FotoExperiencia img{
-  width: 100%;
-  border-radius: 50%;
- }
-
+    width: 20%;
+    padding: 2.5%;
+}
+.ExperienciaPequeña .FotoExperiencia img{
+    width: 100%;
+    border-radius: 50%;
+}
 .ExperienciaPequeña .FotoExperiencia{
-  width: 20%;
-  padding: 2.5%;
-  float: left;
-
- }
- .ExperienciaPequeña .FotoExperiencia img{
-  width: 100%;
-  border-radius: 50%;
- }
-
- 
- .ExperienciaPequeña  p {
+    width: 20%;
+    padding: 2.5%;
+    float: left;
+}
+.ExperienciaPequeña .FotoExperiencia img{
+    width: 100%;
+    border-radius: 50%;
+}
+.ExperienciaPequeña  p {
     margin: none;
     padding: none;
     font-size: 17px;
-  text-align: justify;
-
- }
-
-
-
- .ExperienciaGrande{
-  border: 3px solid #2D8C5F;
-  box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.50);
-  padding: 1%;
-  border-radius: 10px;
-  width: 98%;
-  margin-top: 2%;
- 
- }
- .ExperienciaGrande .arriba {
-  display: flex;
-  justify-content: space-around;
- }
- 
+    text-align: justify;
+}
+.ExperienciaGrande{
+    border: 3px solid #2D8C5F;
+    padding: 1%;
+    border-radius: 10px;
+    width: 98%;
+    margin-top: 2%;
+}
+.ExperienciaGrande .arriba {
+    display: flex;
+    justify-content: space-around;
+}
 .ExperienciaGrande .FotoExperiencia{
-  width: 20%;
-  padding: 2.5%;
-
- }
- .ExperienciaGrande .FotoExperiencia img{
-  width: 100%;
-  border-radius: 50%;
- }
-
- .ExperienciaGrande .TextoExperiencia {
-   width: 90%;
-   margin-top: 2%;
- } 
- .ExperienciaGrande .TextoExperiencia p {
+    width: 20%;
+    padding: 2.5%;
+}
+.ExperienciaGrande .FotoExperiencia img{
+    width: 100%;
+    border-radius: 50%;
+}
+.ExperienciaGrande .TextoExperiencia {
+    width: 90%;
+    margin-top: 2%;
+} 
+.ExperienciaGrande .TextoExperiencia p {
     margin: none;
     padding: none;
     font-size: 17px;
     margin-left: -10%;
-  text-align: justify;
-
- }
+    text-align: justify;
+}
 .ExperienciaGrande .TextoExperiencia .Nombre {
     display: flex;
-  justify-content: space-between;
-  margin-right: 10%;
+    justify-content: space-between;
+    margin-right: 10%;
 }
 .ExperienciaGrande .TextoExperiencia .Nombre img {
-   max-width: 35px;
-   margin-top: -5%;
-   margin-right: -10%;
- } 
- .ExperienciaGrande .mas {
-   width: 100%;
-   display: flex;
-   justify-content: space-around;
-
- } 
+    max-width: 35px;
+    margin-top: -5%;
+    margin-right: -10%;
+} 
+.ExperienciaGrande .mas {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+} 
 .ExperienciaGrande .mas .Fotos {
-   width: 75%;
-   display: flex;
-   justify-content: space-around;
- } 
-
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+} 
 .ExperienciaGrande .mas .Fotos img {
-   float: left;
-   max-width: 50%;
-   max-height: 200px;
+    float: left;
+    max-width: 50%;
+    max-height: 200px;
 } 
 .ExperienciaGrande .mas .Especificaciones {
-   width: 25%;
-  
- } .ExperienciaGrande .mas .Fotos img:hover {
-   transform: scale(2)
+    width: 25%;
+    font-size: 14px;
+} 
+.ExperienciaGrande .mas .Fotos img:hover {
+    transform: scale(2)
 } 
 .s .mas .Especificaciones ul {
-  list-style-type: circle;
-  list-style: initial;
+    list-style-type: circle;
+    list-style: initial;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .ExperienciaGrande {
+        width: 90%;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    .ExperienciaGrande .mas .Fotos img {
+        width: 100%;
+        float: left;
+    } 
+    .ExperienciaGrande .mas .Fotos img:hover {
+        transform: scale(0);
+    } 
+    .ExperienciaGrande .mas .Fotos  {
+        display: inline;
+        width: 100%;
+    } 
+    .ExperienciaGrande .mas  {
+        display: inline;
+    } 
+    .ExperienciaGrande .mas .Especificaciones {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+    } 
+    .ExperienciaGrande .mas .Fotos img {
+        float: left;
+        max-width: 90%;
+        max-height: 100vh;
+        padding: 5%;
+    }
+    .ExperienciaPequeña {
+        width: 100%;
+    }
+    .Experiencias ul.Grande {
+        display: inline;
+    }
+    .ExperienciaGrande .mas .Especificaciones {
+        font-size: 18px;
+    }    
+}
+
+

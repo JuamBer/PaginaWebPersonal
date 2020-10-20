@@ -1,27 +1,24 @@
 /* COLORES: #024027 #2D8C5F*/
 
-.MainIndex {
-	width: 62.5%;
-	float: left;
-	margin-left: 5%;
-	margin-top: 5%;
-}
+
 .Main {
 	width: 65%;
 	float: left;
 	margin-left: 12.5%;
 	margin-top: 5%;
 }
+
+
 .Titulo {
 	color:black;
 	width: 100%;	
 	padding-top: 2.5%;
-	padding-bottom: 2.5%;}
+	padding-bottom: 2.5%;
+}
 .Titulo h1 {
 	font-size: 25px;
 	text-align: left;
 }
-
 .Titulo img{
 	max-height: 20px;
 	max-width: 20px;	
@@ -29,3 +26,11 @@
 	padding: 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+.Main {
+	width: 100%;
+	float: none;
+	margin-left: 0%;
+	margin-top: 5%;
+}
+}
