@@ -63,7 +63,7 @@ header .Navegador ul li a {
 	color: #024027;
 }
 header .Idiomas ul{
-	margin-left:10%;
+	margin-left:15%;
 	margin-top: 10%;
 }
 header .Idiomas ul li{
@@ -124,38 +124,24 @@ header .Idiomas ul a.active{
 	header .FotoPerfil div p{
 		display: none;
 	}
-	header .Idiomas {
-		visibility: visible;
-		width: 100%;
-		margin: 0px;		
-		padding: 0px;
-		margin-top: -10%;
-		margin-left: -8%;
-	}
-	header .Idiomas .Esp{
-		padding: 1px;
-		border: 2px solid #024027;
-	}
-	header .Idiomas .Eng{
-		padding: 1px;
-		border: 2px solid #024027;
-	}
 	header .Navegador nav ul{
 		display:inline-block;
-		width: 81%;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
 		padding-bottom: 2.5%;  
 	}
 	header .Navegador nav ul li {
 		border:#2D8C5F 2px solid;
-		width: 90%;
 		height: auto;
 		padding: 1px;
-		margin: 2px;
+		margin: 3px;
+		width: calc(100% - 12px);
 		text-shadow: none;
 	}
 	header .Navegador nav ul li:hover {
-		background: #024027 ;
-		border:4px #024027 solid;
+		background: #024027;
+		border:2px #024027 solid;
 		color:white;
 	}
 	header .FotoPerfil .movil{
@@ -171,5 +157,26 @@ header .Idiomas ul a.active{
 	header .Navegador nav ul li:hover > a{
 		color:white;
 	}
-
+	header .Idiomas {
+		visibility: visible;
+		width: 100%;
+		margin: 0px;		
+		padding: 0px;
+	}
+	header .Idiomas ul{
+		margin-left: 0%;
+		margin-top: 0%;
+	}	
+	header .Idiomas .Esp{
+		width: 35%;
+		padding: 1px;
+		margin: 0px;
+		border: 2px solid #024027;
+	}
+	header .Idiomas .Eng{
+		padding: 1px;
+		width: 35%;
+		margin: 0px;
+		border: 2px solid #024027;
+	}
 }
