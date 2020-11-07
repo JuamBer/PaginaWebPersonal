@@ -23,7 +23,13 @@ header .FotoPerfil img {
 	height: auto;
 	border-radius: 50%;
 }
-header .FotoPerfil h1, p {
+header .FotoPerfil h1  {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+header .FotoPerfil  p {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 2%;

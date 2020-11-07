@@ -42,6 +42,7 @@
 }
 .ExperienciaGrande .Superior {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-around;
 }
 .ExperienciaGrande .Superior .FotoExperiencia{
@@ -56,12 +57,13 @@
     width: 89%;
     margin-top: 2%;
 } 
-.ExperienciaGrande .Superior .TextoExperiencia p {
+.ExperienciaGrande  p {
     margin: none;
     padding: none;
     font-size: 17px;
-    margin-left: -10%;
     text-align: justify;
+    padding-right: 2%;
+    
 }
 .ExperienciaGrande .Superior .TextoExperiencia .Nombre {
     display: flex;
