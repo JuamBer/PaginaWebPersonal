@@ -6,7 +6,7 @@
 .Experiencias ul {
     list-style: none;
 }
-.Experiencias ul.Grande {
+.Experiencias ul.ExperienciasPequeñas {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -18,30 +18,21 @@
     border-radius: 10px;
     width: 46%;
     margin-top: 2%;
+    margin-bottom: 2.5%;
 }
-.ExperienciaPequeña .FotoExperiencia{
-    width: 20%;
-    padding: 2.5%;
-}
-.ExperienciaPequeña .FotoExperiencia img{
-    width: 100%;
-    border-radius: 50%;
-}
-.ExperienciaPequeña .FotoExperiencia{
-    width: 20%;
-    padding: 2.5%;
-    float: left;
-}
-.ExperienciaPequeña .FotoExperiencia img{
-    width: 100%;
-    border-radius: 50%;
+.ExperienciaPequeña .Nombre h3{
+    margin: 3%;
+    font-size: 20px;
 }
 .ExperienciaPequeña  p {
-    margin: none;
-    padding: none;
-    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 19px;
     text-align: justify;
+    margin:3%;
 }
+
+
 .ExperienciaGrande{
     border: 3px solid #2D8C5F;
     padding: 1%;
@@ -53,31 +44,31 @@
     display: flex;
     justify-content: space-around;
 }
-.ExperienciaGrande .FotoExperiencia{
+.ExperienciaGrande .Superior .FotoExperiencia{
     width: 20%;
     padding: 2.5%;
 }
-.ExperienciaGrande .FotoExperiencia img{
+.ExperienciaGrande .Superior .FotoExperiencia img{
     width: 100%;
     border-radius: 50%;
 }
-.ExperienciaGrande .TextoExperiencia {
-    width: 90%;
+.ExperienciaGrande .Superior .TextoExperiencia {
+    width: 89%;
     margin-top: 2%;
 } 
-.ExperienciaGrande .TextoExperiencia p {
+.ExperienciaGrande .Superior .TextoExperiencia p {
     margin: none;
     padding: none;
     font-size: 17px;
     margin-left: -10%;
     text-align: justify;
 }
-.ExperienciaGrande .TextoExperiencia .Nombre {
+.ExperienciaGrande .Superior .TextoExperiencia .Nombre {
     display: flex;
     justify-content: space-between;
     margin-right: 10%;
 }
-.ExperienciaGrande .TextoExperiencia .Nombre img {
+.ExperienciaGrande .Superior .TextoExperiencia .Nombre img {
     max-width: 35px;
     margin-top: -5%;
     margin-right: -10%;
@@ -144,6 +135,15 @@
     }
     .Experiencias ul.Grande {
         display: inline;
+    }
+    .Experiencias ul.ExperienciasPequeñas {
+        display: inline;
+        justify-content: none;
+        width: 100%;
+    }
+    .ExperienciaPequeña {
+        width: 90%;
+        margin-left: 2.5%;
     }
 }
 
