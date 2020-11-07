@@ -63,17 +63,23 @@
     font-size: 17px;
     text-align: justify;
     padding-right: 2%;
+    background-color: blueviolet;
     
 }
 .ExperienciaGrande .Superior .TextoExperiencia .Nombre {
     display: flex;
     justify-content: space-between;
     margin-right: 10%;
+    background-color: antiquewhite;
 }
 .ExperienciaGrande .Superior .TextoExperiencia .Nombre img {
+    padding: 0px;
+    margin:0px;
     max-width: 35px;
+    background: green;
     margin-top: -5%;
     margin-right: -10%;
+    
 } 
 .ExperienciaGrande .Inferior {
     width: 100%;
