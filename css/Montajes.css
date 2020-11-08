@@ -63,7 +63,6 @@
     font-size: 17px;
     text-align: justify;
     padding-right: 2%;
-    background-color: blueviolet;
     
 }
 .ExperienciaGrande .Superior .TextoExperiencia .Nombre {
@@ -71,7 +70,6 @@
     padding:0px;
     margin:0px;
     margin-right: 10%;
-    background-color: antiquewhite;
 }
 .ExperienciaGrande .Inferior {
     width: 100%;
