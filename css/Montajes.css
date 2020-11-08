@@ -67,22 +67,12 @@
     
 }
 .ExperienciaGrande .Superior .TextoExperiencia .Nombre {
-    float: right;
     
     padding:0px;
     margin:0px;
     margin-right: 10%;
     background-color: antiquewhite;
 }
-.ExperienciaGrande .Superior .TextoExperiencia .Nombre img {
-    padding: 0px;
-    margin:0px;
-    max-width: 35px;
-    background: green;
-    margin-top: -5%;
-    margin-right: -10%;
-    
-} 
 .ExperienciaGrande .Inferior {
     width: 100%;
     display: flex;
