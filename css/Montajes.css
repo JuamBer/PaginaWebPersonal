@@ -69,6 +69,9 @@
 .ExperienciaGrande .Superior .TextoExperiencia .Nombre {
     display: flex;
     justify-content: space-between;
+    
+    padding:0px;
+    margin:0px;
     margin-right: 10%;
     background-color: antiquewhite;
 }
