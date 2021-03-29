@@ -86,8 +86,9 @@
     max-height: 200px;
 } 
 .ExperienciaGrande .Inferior iframe {
-    width: 100%;
+    width: 90%;
     min-width: 500px;
+    max-width: 600px;
 }
 .ExperienciaGrande .Inferior .Especificaciones {
     width: 25%;
@@ -122,7 +123,8 @@
     .ExperienciaGrande .Inferior .Especificaciones {
         width: 100%;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         font-size: 18px;
     } 
     .ExperienciaGrande .Inferior iframe {
