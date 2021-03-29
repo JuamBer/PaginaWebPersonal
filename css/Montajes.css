@@ -46,20 +46,13 @@
     margin-top: 2%;
 }
 .ExperienciaGrande .Superior {
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-around;
+    margin:3%;
 }
-.ExperienciaGrande .Superior .FotoExperiencia{
-    width: 20%;
-    padding: 2.5%;
-}
-.ExperienciaGrande .Superior .FotoExperiencia img{
-    width: 100%;
-    border-radius: 50%;
+.ExperienciaGrande .Superior h3{
+    margin-bottom: 3%;
 }
 .ExperienciaGrande .Superior .TextoExperiencia {
-    width: 89%;
+    width: 100%;
     margin-top: 2%;
 } 
 .ExperienciaGrande  p {
@@ -70,8 +63,8 @@
     padding-right: 2%;
     
 }
-.ExperienciaGrande .Superior .TextoExperiencia .Nombre {
-    
+.ExperienciaGrande .Superior .Nombre {
+    width: 100%;
     padding:0px;
     margin:0px;
     margin-right: 10%;
@@ -80,6 +73,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom:3%;
 } 
 .ExperienciaGrande .Inferior .Fotos {
     width: 75%;
